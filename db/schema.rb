@@ -11,12 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140311114503) do
-
-  create_table "test_models", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+ActiveRecord::Schema.define(version: 20140303080934) do
 
   create_table "users", force: true do |t|
     t.string   "email",                        default: "", null: false
